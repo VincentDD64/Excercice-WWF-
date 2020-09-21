@@ -1,0 +1,232 @@
+*{
+	margin:0;
+    padding: 0;
+}
+
+.wrap{
+	width: 1000px;
+	margin:auto;
+}
+		
+#menu01mobile,#menu02mobile{
+	display: none;
+
+}
+
+header{
+	background-color: black;
+	height: 40px;
+}	
+
+header ul {
+	display:flex;
+	flex-direction: row-reverse;
+	list-style: none;
+}	
+
+header ul li a {
+		color: grey;
+		text-decoration: none;
+		padding: 10px;
+
+}
+
+header ul li a.adopt
+{
+	background-color: orange;
+	color: white;
+}
+
+header ul li a.donate
+{
+	background-color:#FF8C00
+}
+
+#menu02  {
+	background-color:grey;
+	height: 50px;
+}
+
+#menu02 ul {
+			display: flex;
+			justify-content: flex end;
+			list-style: none;
+		
+
+}
+
+#menu02 ul li a{
+				color: white;
+				text-decoration: none;
+				padding: 10px;
+
+}
+
+#menu02 img{
+	margin-top: -50px;
+}
+
+#slider {
+	background-color:black;
+	background-image: url("../images/polar_bear.jpg");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+}
+#slider .wrap {
+	
+	 height: 600px;
+	width: 1200px;
+	margin:auto;
+	
+	
+
+}
+.wrap{display:}
+h1{
+	position: absolute;
+	margin-top:500px;
+	color:white;
+	text-shadow: 1px 1px grey;
+
+}
+
+h2{
+	position: absolute;
+	margin-top: 540px;
+	color: white;
+	font-size: 15px;
+	text-shadow: 1px 1px grey;
+
+}
+section .wrap{
+	display: flex;
+	justify-content: space-between; 
+
+}
+
+section .wrap article {
+
+	width: 23%;
+}
+
+section .wrap article img{
+
+	width: 100%;
+}
+#content{
+	padding-top: 50px;
+}
+
+@media all and (max-width: 999px){
+
+	.wrap{
+		width: 100%;
+		margin:auto;
+	}
+
+	h2{
+		color: grey;
+
+	}
+
+
+
+}
+
+@media all and (max-width: 768px){
+	#menu01mobile,#menu02mobile{
+		display: block;
+
+	}
+
+
+	#menu01,#menu02{
+		display: none;
+	}
+	#menu01mobile{
+		display: flex;
+		justify-content: center;
+		background-color:white;
+		padding-top: 10px;
+
+	}
+
+	
+	
+	#menu02mobile {
+		background-color: white;
+
+
+	}
+	#menu02mobile ul{
+		display: flex;
+		justify-content:space-between;
+		padding-top: 60px;
+
+		
+	}
+	#menu02mobile ul li  {
+		width: 50%;
+		list-style: none;
+
+	}
+
+	#menu02mobile ul li a{
+		text-decoration: none;
+		text-align: center;
+
+		display: block;
+		padding-bottom: 7px;
+		padding-top: 7px;
+
+	}
+	.adopt {
+		background-color: orange;
+		color: white;
+
+
+
+	}
+	.donate{
+		background-color: #FF8C00;
+		color: white;
+	}
+
+	h1 {
+		background-color: black;
+		width: 100%;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+	h2 {
+		background-color: black;
+		width: 100%;
+		padding-bottom: 40px;
+		padding-top: 40px;
+
+	}
+section .wrap
+	{
+		flex-wrap: wrap;
+	}
+
+section .wrap article {
+
+	width: 48%;
+}
+
+
+
+	
+
+
+}
+
+@media all and (max-width: 640px){
+	
+	
+
+
+
+}
